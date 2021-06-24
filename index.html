@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-home.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo"></h1>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn">Abrir/fechar menu</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item menu-principal--atual" href="index.html">Home</a></li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                <li><a class="menu-principal__item" href="destinos.html">Destinos</a></li>
+                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header class="cabecalho-home">
+            <h2 class="cabecalho-home__titulo">Somos uma agência Full Service focada em redução de custos.</h2>
+            <a class="cabecalho-home__role" href="#servicos">Role para ver mais</a>
+        </header>
+        <section id="servicos" class="servicos"><!--secao servicos-->
+            <h2 class="home__titulo">O que fazemos</h2>
+            <section class="servicos__item"> 
+                <img src="img/img-pginicial/aviao.png" alt="icone aviao">
+                <h3>Direcionamento de viagens</h3>
+                <p class="servicos__texto">Direcionamos sua viagem de acordo com seu gosto e escolhas, englobando uma série de facilidades para ajudar toda sua experiência .</p>
+            </section>
+            <section class="servicos__item">
+                <img src="img/img-pginicial/celular.png" alt="ajuda celular">
+                <h3>Suporte pelo celular</h3>
+                <p class="servicos__texto">Damos todo o suporte principalmente pelo celular através de nosso site ou app, para maior conforto e agilidade.</p>
+            </section>
+            <section class="servicos__item">
+                <img src="img/img-pginicial/parceiros.png" alt="parceiros de negocios">
+                <h3>Parceiros de Viagens</h3>
+                <p class="servicos__texto">Temos vários parceiros de viagens no qual facilita toda informação e despesas necessárias dentro da viagem para que você não se preocupe com questões burocráticas.</p>
+            </section>
+        </section><!--fim secao servicos-->
+        <section class="depoimentos"><!--secao depoimentos-->
+            <h2 class="home__titulo home__titulo--branco">O que falam de nós</h2>
+            <section class="depoimentos__item">
+                <img class="depoimentos__img" src="img/img-pginicial/fotoperfil1.jpg" alt="foto perfil">
+                <p class="depoimentos__texto">Empresa excelente, muito dedicada a atender às necessidades de seus clientes. Recomendo!</p>
+                <p class="depoimentos__pessoa">Felipe Nonato - Software Enginner</p>
+            </section>
+        </section><!--fim secao depoimentos-->
+    </main>
+    <footer class="rodape">
+        <div class="rodape__linha-1">
+            <div class="rodape__coluna">
+                <a href="index.html" class="logo"></a>
+            <p>Somos especializados em diagnosticar oportunidades de redução de custos, revisar processos, políticas de viagens e negociar com os fornecedores. O que reflete em menor custo de transação, respostas com qualidade superior ao mercado, ferramentas de gestão de viagem e o orçamento mensal dentro do planejado.</p>
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="https://www.linkedin.com/in/felipe-nonato-604577113/" target="_blank">LinkedIn</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://www.instagram.com/felipe__nonato/" target="_blank">Instagram</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://github.com/Lipe-27" target="_blank">Github</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/" target="_blank">Curso</a></li>
+                </ul>
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="rodape__lista-links__item" href="destinos.html">Destinos</a></li>
+                    <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rodape__linha-2">
+            © 2021 - Todos os direitos reservados - Felipe Nonato
+        </div>
+    </footer>   
+</body>
+</html>
